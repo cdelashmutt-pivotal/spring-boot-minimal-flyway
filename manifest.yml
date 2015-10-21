@@ -1,0 +1,8 @@
+---
+applications:
+- name: flyway-test
+  memory: 1G
+  host: flyway-test
+  path: build/libs/spring-boot-minimal-flyway-0.0.1-SNAPSHOT.jar
+  services:
+  - mysql
